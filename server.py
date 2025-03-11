@@ -1,7 +1,7 @@
 import socket
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_socket.bind(("192.168.0.100", 5500))
+server_socket.bind(("IP", PORT))
 server_socket.listen(1)
 
 print("Menunggu koneksi...")
